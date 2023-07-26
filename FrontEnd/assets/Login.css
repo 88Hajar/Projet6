@@ -1,0 +1,137 @@
+body {
+    max-width: 1140px;
+    margin: auto;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    background-color: #FFFEF8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Syne';
+    font-size: 22px;
+    font-weight: 800;
+    color: #B1663C
+}
+
+h1>span {
+    font-family: 'Work Sans';
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    ;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+nav li {
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+
+nav img {
+    Width: 19.36px;
+    Height: 19.36px;
+    padding-top: 3px;
+}
+
+li:hover {
+    color: #B1663C;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    width: 100px;
+    margin-top: 170px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #1D6154;
+}
+
+form {
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+
+.e-mail,
+.motdepasse {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #3D3D3D;
+}
+
+input {
+    width: 379px;
+    border: none;
+    height: 51px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+}
+
+.btn-connection {
+    display: block;
+    margin: auto;
+    margin-top: 37px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    width: 179px;
+    height: 36px;
+    background: #1D6154;
+    border-radius: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a {
+    
+    padding: 10px;   
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+form a {
+    margin-left: 100px;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background: #FFFFFF;
+    margin-left: -6%;
+    margin-right: -6%;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+footer li {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
